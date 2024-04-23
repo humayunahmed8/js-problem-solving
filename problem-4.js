@@ -5,7 +5,7 @@
 // ৩ এবং ৫ হচ্ছে মৌলিক সংখ্যা এবং এদের ল.সা.গু হচ্ছে ১৫ 
 
 function fizzBuzz(number) {
-  for(let i = 0; i <= number; i++ ) {
+  for(let i = 1; i <= number; i++ ) {
     if(i % 15 === 0) { // কারন ৩ এবং ৫ এর ল.সা.গু হচ্ছে ১৫
       console.log(`${i} is FizzBuzz`);
     } else if(i % 3 === 0) {
