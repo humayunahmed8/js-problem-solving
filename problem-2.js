@@ -3,7 +3,8 @@
 // problem : You have to implement linearSearch() function
 
 function linearSearch(arr, val) {
-  for(let i = 0; i < arr.length; i++) {
+  const length = arr.length;
+  for(let i = 0; i < length; i++) {
     if(arr[i] === val) {
       return i;
     }
