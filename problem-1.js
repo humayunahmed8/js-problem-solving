@@ -11,7 +11,12 @@ const matchedWord = sentence.match(/Bangladesh/gi);
 // Show full object 
 console.log(matchedWord); //['Bangladesh', 'Bangladesh', 'Bangladesh','Bangladesh', 'Bangladesh']
 
-// Count total matched word from the object 
-const countMatchWord = matchedWord.length; //5
+// Count total matched word from the object (If object value = null then it will show "Not Found" message)
+const countMatchWord = matchedWord ? matchedWord.length : "Not found"; //5
 
 console.log(countMatchWord); //5 
+
+// Check first word index number 
+const firstOccurance = sentence.search(/bangladesh/i); //54
+
+console.log(firstOccurance); //54
