@@ -6,7 +6,7 @@
 
 function fizzBuzz(number) {
   for(let i = 0; i <= number; i++ ) {
-    if(i % 15 === 0) { // কারন ৩ এবং ৫ উভয়ের ল.সা.গু হচ্ছে ১৫
+    if(i % 15 === 0) { // কারন ৩ এবং ৫ এর ল.সা.গু হচ্ছে ১৫
       console.log(`${i} is FizzBuzz`);
     } else if(i % 3 === 0) {
       console.log(`${i} is Fizz`);
