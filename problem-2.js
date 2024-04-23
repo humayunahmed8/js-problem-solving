@@ -15,3 +15,4 @@ function linearSearch(arr, val) {
 
 console.log(linearSearch(['a', 'b', 'c', 'd', 'c'], 'c')); //2
 console.log(linearSearch(['a', 'b', 'c', 'd', 'c'], 'x')); //Not Found!
+
